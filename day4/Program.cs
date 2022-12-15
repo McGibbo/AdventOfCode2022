@@ -12,10 +12,6 @@ foreach (string pair in pairs)
 
     if(sharedSections.Count > 0)
         badPairs++;
-    else
-    {
-        Console.WriteLine(pair + " " + sharedSections.Count + " " + elf1.Count + " " + elf2.Count);
-    }
 }
 
 Console.WriteLine(badPairs);
